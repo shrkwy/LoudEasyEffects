@@ -1,20 +1,17 @@
 # LoudEasyEffect
-**Presets for [EasyEffects](https://github.com/wwmm/easyeffects) on [Pipewire](https://pipewire.org/) (Bose, Custom Bass and Sony).**
+**Presets for [EasyEffects](https://github.com/wwmm/easyeffects) | [Pipewire](https://pipewire.org/) (Bose, Custom Bass and Sony).**
 
 
-## Installation
-* Install `easyeffects` and its dependencies.
+## Dependencies
+* Make sure `easyeffects` is installed along with dependencies: `mda.lv2` `calf` `lsp-plugins-lv2`
 
-### Download of presets
-* Go to `releases` section.
-* Then select `Get ZIP`.
+### Clone the repo.
+* Use the "Download Zip" option to locally download the zipped repo and extract it.
+* Or you may clone the repo with `git clone https://github.com/shrkwy/LoudEasyEffects.git`
 
-### Import of presets
-* You can use the `Import Preset` button that is beside the `Add` preset button.
-
-Or
-* Move the **JSON** presets to `~/.config/easyeffects/output`.
-* If you have installed EasyEffects with Flatpak, it's here `~/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output`.
+### Installation
+* Move/Copy the **easyeffects** folder to `~/.config/`.
+* If installed using Flatpak, then copy here `~/.var/app/com.github.wwmm.easyeffects/config/`.
 
 
 # 🖤️ Enjoy the sound 🖤️
